@@ -1,5 +1,5 @@
 public class Array_Reverse{
-	public void Reverse(int arr[],int first,int last)
+	public static void Reverse(int arr[],int first,int last)
 	{
 		int temp;
 		while(first<last)
@@ -14,7 +14,7 @@ public class Array_Reverse{
 	}
 	static void print(int arr[],int n)
 	{
-		for (i=0;i<n ;i++ ) 
+		for (int i=0;i<n ;i++ ) 
 		{
 			System.out.println(arr[i]+"");
 			
@@ -23,9 +23,9 @@ public class Array_Reverse{
 	}
 	public static void main(String[] args) {
 		int arr[]={1,2,3,4,5,6,7};
-		Reverse(arr,0,7);
+		Reverse(arr,0,6);
 		System.out.println("after sort the array :");
-		print(arr,6);
+		print(arr,7);
 		
 	} 
 }
