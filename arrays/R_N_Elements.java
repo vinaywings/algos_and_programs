@@ -1,4 +1,4 @@
-class RorateNelements{
+class R_N_Elements{
 	void leftRotate(int arr[],int d,int n)
 	{
 		for (int i=0;i<d ;i++) 
